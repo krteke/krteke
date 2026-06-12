@@ -21,7 +21,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=dracula&show_icons=true&hide_border=false&layout=compact&title_color=a48cf2&text_color=37f499&icon_color=04d1f9&border_color=a48cf2&bg_color=212337
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -29,7 +29,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=donut
+          options: username=${{ github.repository_owner }}&theme=dracula&show_icons=true&hide_border=false&layout=compact&title_color=a48cf2&text_color=37f499&icon_color=04d1f9&border_color=a48cf2&bg_color=212337
           path: profile/language.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
